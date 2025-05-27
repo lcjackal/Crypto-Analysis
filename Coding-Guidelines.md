@@ -321,7 +321,7 @@ NOT: Tarama başlat butonu dimamik olacak. Tarama başlata basıldığında buto
 İZLEME LİSTESİ
 Bu bölüm mantık olarak takip edilen coinlerin izlendiği ve programın amacına göre tarama yapılarak istenen değerlerin listelendiği bir tabloyu barındıran bir menü.
 
-İZLEME LİSTESİ MENÜSÜ ile ilgili görsel: 
+İZLEME LİSTESİ MENÜSÜ ile ilgili görsel: https://hizliresim.com/qm2lipv
 
 İzleme listesindeki coinler içinde mevcut sistemin çalışma mantığı, algoritması ve diğer özelliklerini kullanarak tarama yaparak değil İzleme listesinde bulunan coinlerin hedef fiyat zaman aralığını tahmin etmeye yönelik bir menü olacak. Burada programın yavaşlamasını ve hatalara yol açmasını engellemek amacı ile ana panelde tarama varken İzleme Listesinde tarama yapılaması engelenecek. Ana paneldeki tarama durdurulduktan sonra İzleme Listesinde tarama başlayacak. Mantık, algoritma, geliştirme seçenekleri yukarıda anlattıklarımla birebir aynı olacak. İzleme listesinde yer alan coinler için zaman aralığı seçmek istemiyorum. Düşüncem şu 24 saat içinde yükselebileceği maksimum fiyat zaman aralığı ve düşeceği maksimum fiyat zaman aralığı tabloda listelenecek. Potansiyel Fırsatlar tablosu çalışma mantığı bu pencereye entegre edilip zaman aralığı gözetmeksizin verilere göre (G1-G29 arasında belirtilen veriler) gün içerisinde düşeceği maksimum fiyat yada çıkacağı maksimum fiyat potansiyel fırsatlar tablosunda hedef fiyat zaman aralığı ve diğer belirteçlerle beraber listelensin.
 

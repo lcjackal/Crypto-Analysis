@@ -1,0 +1,34 @@
+{
+  "name": "kripto-analiz-programi",
+  "version": "1.0.0",
+  "description": "A cryptocurrency analysis program that identifies potential trading opportunities based on real-time data and machine learning algorithms.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
+    "@types/jest": "^26.0.24"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "analysis",
+    "trading",
+    "machine learning"
+  ],
+  "author": "Jackal",
+  "license": "MIT"
+}
