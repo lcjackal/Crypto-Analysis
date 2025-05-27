@@ -36,3 +36,18 @@ export const debounce = (func: Function, delay: number) => {
 export const generateUniqueId = (): string => {
     return 'id-' + Math.random().toString(36).substr(2, 16);
 };
+
+export function calculateConfidenceInterval() {
+  // Basit örnek fonksiyon, gerçek hesaplama eklenebilir
+  return 0;
+}
+
+export function trainModel() {
+  // Basit örnek fonksiyon, gerçek model eğitimi eklenebilir
+  return null;
+}
+
+export function predictPrice() {
+  // Basit örnek fonksiyon, gerçek tahmin eklenebilir
+  return 0;
+}

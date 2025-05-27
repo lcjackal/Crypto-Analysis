@@ -40,3 +40,28 @@ export interface AlgorithmSettings {
     historicalDataWeight: number; // Weighting for historical data in predictions
     anomalyDetectionEnabled: boolean; // Flag to enable/disable anomaly detection
 }
+
+export interface CoinData {
+  id: string;
+  name: string;
+  symbol: string;
+  currentPrice: number;
+  targetPrice?: number;
+  logo?: string;
+}
+
+export interface TespitEdilenHareketlerData {
+  id: string;
+  hareket: string;
+  tarih: string;
+}
+
+export interface DataPoint {
+  x: number;
+  y: number;
+}
+
+export interface PredictionResult {
+  value: number;
+  confidence: number;
+}

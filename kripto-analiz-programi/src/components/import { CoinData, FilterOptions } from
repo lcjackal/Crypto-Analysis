@@ -1,0 +1,1 @@
+import { CoinData, FilterOptions } from '../types';

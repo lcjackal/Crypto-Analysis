@@ -1,0 +1,1 @@
+import { fetchWatchlistData } from '../services/dataCollector';

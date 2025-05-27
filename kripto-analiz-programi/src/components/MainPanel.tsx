@@ -9,13 +9,13 @@ const MainPanel = () => {
     const renderTable = () => {
         switch (activeTab) {
             case 'yukselisRadari':
-                return <YukselisRadariTable />;
+                return <YukselisRadariTable data={[]} />;
             case 'tespitEdilenHareketler':
-                return <TespitEdilenHareketlerTable />;
+                return <TespitEdilenHareketlerTable data={[]} />;
             case 'potansiyelFirsatlar':
-                return <PotansiyelFirsatlarTable />;
+                return <PotansiyelFirsatlarTable coins={[]} />;
             default:
-                return <YukselisRadariTable />;
+                return <YukselisRadariTable data={[]} />;
         }
     };
 

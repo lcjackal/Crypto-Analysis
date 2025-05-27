@@ -1,7 +1,7 @@
 // src/services/dataCollector.ts
 
 import axios from 'axios';
-import { CoinData, FilterOptions } from '../types';
+import { CoinData, FilterOptions, CryptoCurrency } from '../types';
 
 class DataCollector {
     private apiEndpoints: string[];
@@ -47,3 +47,26 @@ class DataCollector {
 }
 
 export default DataCollector;
+
+// Watchlist için örnek veri getiren fonksiyon (gerçek API ile değiştirilebilir)
+export async function fetchWatchlistData(): Promise<CryptoCurrency[]> {
+    // Burada gerçek bir API çağrısı yapılabilir, örnek veri dönülüyor:
+    return [
+        {
+            id: 'btc',
+            name: 'Bitcoin',
+            symbol: 'BTC',
+            currentPrice: 70000,
+            priceChangePercentage24h: 2.5,
+            dailyVolume: 100000000,
+            buyPressure: 60,
+            sellPressure: 40,
+            buySellPressureRatio: 1.5,
+            targetPrice: 75000,
+            potentialChange: 7.1,
+            confidenceScore: 0.9,
+            estimatedTimeToTarget: '2d',
+            logo: 'https://cryptologos.cc/logos/bitcoin-btc-logo.png'
+        }
+    ];
+}
